@@ -17,7 +17,7 @@ $ go get https://github.com/anqurvanillapy/passalt
 
 ## Usage
 
-- Only two APIs similar to those in `werkzeug`
+- There are only two APIs, similar to those in `werkzeug`
   + `passalt.Generate(passwd)`
   + `passalt.Check(passwd)`
 
@@ -29,6 +29,7 @@ func main() {
 	hash := passalt.Generate("foo")
 	passalt.Check("foo")    // => true
 	passalt.Check("bar")    // => false
+}
 ```
 
 ## License
