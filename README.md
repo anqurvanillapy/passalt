@@ -10,7 +10,7 @@ sha512$salt$hash
 ## Install
 
 ```bash
-$ go get https://github.com/anqurvanillapy/passalt
+$ go get github.com/anqurvanillapy/passalt
 ```
 
 ## Usage

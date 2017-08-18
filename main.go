@@ -20,7 +20,7 @@ func New(passwd string) string {
 	saltStr := hex.EncodeToString(salt)
 	hashStr := hex.EncodeToString(hash.Sum(nil))
 
-	return fmt.Sprintf("sha512$%x$%x", saltStr, hashStr)
+	return fmt.Sprintf("sha512$%s$%s", saltStr, hashStr)
 }
 
 // Check if the password is valid.
