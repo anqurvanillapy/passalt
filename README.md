@@ -15,9 +15,9 @@ $ go get github.com/anqurvanillapy/passalt
 
 ## Usage
 
-- There are only two APIs, similar to those in `werkzeug`
+- There are only two APIs, similar to those in `werkzeug.security`
   + `passalt.New(passwd)`
-  + `passalt.Check(passwd)`
+  + `passalt.Check(hash, passwd)`
 
 ```go
 import "github.com/anqurvanillapy/passalt"
